@@ -1,0 +1,76 @@
+@font-face{
+    font-family: 'lemon';
+    src:url('fontes/lemon_milk/LEMONMILK-Medium.otf')format('opentype');
+}
+@font-face {
+    font-family:'louis';
+    src:url('fontes/louis_george_caf/Louis\ George\ Cafe\ Bold.ttf')format('truetype');
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    font-size:1em;
+    background-image:linear-gradient(to right,#30C5D2,#471069 );
+    background-attachment: fixed;
+    font-family:'louis';
+}
+h1{
+    text-align: center;
+    padding:30px;
+    font-family: 'lemon';
+}
+section{
+    max-width: 250px;
+    min-height: 90px;
+    max-height: 350px;
+    background-color: white;
+    margin:auto;
+    padding:5px;
+    border-radius:5px;
+}
+section input{
+    margin: 3px;
+}
+#ano{
+    width:65px;
+    padding:2px; 
+    text-align: center;
+}
+#botao{
+   width: 240px;
+   border:0.5px;
+   padding:6px;
+   font-size: 1em;
+   font-weight: 900;
+   border-radius:5px;
+   background-color:#3698B8;
+   margin-top:10px;
+   margin-left:0px;
+   margin-right: 0px;
+   margin-bottom: 0px;;
+}
+#botao:hover{
+    background-color:#3C6B9E;
+    color:azure;
+}
+#msg {
+    padding: 5px;  
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    font-weight:800;
+    padding:10px;
+}
+footer a{
+    text-decoration: none;
+    color:black;
+}
+footer a:hover{
+    color:#30C5D2;
+    text-decoration: underline;
+    font-size:16px;
+}
+

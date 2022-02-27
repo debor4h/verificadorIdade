@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador De Idade</title>
+    <link rel = "shortcut icon" href = "favicon.ico">
+    <link rel = "stylesheet" href = "estilo.css">
+</head>
+<body>
+    <main>
+        <h1>Verificador De Idade</h1>
+        <section>
+            <label><strong>Ano De Nascimento:</strong></label> 
+            <input type = "number" id = "ano" name = "ano" placeholder = "aaaa" min = 1 max="2022">
+            <!-- <input type = "number" id = "txtano" name = "txtano" min = "1" placeholder = "Qual ano vc "> -->
+            <label><strong>Sexo: </strong></label>  
+            <input type = "radio" id="fem" name="sexo" checked >
+            <label form = "fem" >Feminino</label>
+            <input type = "radio" id = "masc" name = "sexo"> 
+            <label form = "masc">Masculino</label>
+            <input type = "button" id = "botao" name = "bottao" value = "Verificar" onclick = "clicar()">
+            <div id = "msg"></div>
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ" target = "_black" rel = "external" hreflang = "br-pt"> CursoEmVideo</a></p>
+    </footer>
+    <script src = "script.js"></script>
+</body>
+</html>
