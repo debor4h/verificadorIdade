@@ -22,41 +22,39 @@ h1{
     font-family: 'lemon';
 }
 section{
-    max-width: 250px;
+    max-width: 237px;
+    max-height: 310px;
     min-height: 90px;
-    max-height: 350px;
     background-color: white;
     margin:auto;
-    padding:5px;
+    padding:3px;
     border-radius:5px;
 }
 section input{
-    margin: 3px;
+    margin: 3px 0px 3px 3px;
 }
 #ano{
-    width:65px;
+    width:73px;
     padding:2px; 
     text-align: center;
 }
 #botao{
-   width: 240px;
+   width: 236px;
    border:0.5px;
    padding:6px;
-   font-size: 1em;
-   font-weight: 900;
    border-radius:5px;
    background-color:#3698B8;
-   margin-top:10px;
-   margin-left:0px;
-   margin-right: 0px;
-   margin-bottom: 0px;;
+   /* size weight */
+   font:1em 900;
+   /* top right bottom left */
+   margin: 10px 0px 0px 0px;
 }
 #botao:hover{
     background-color:#3C6B9E;
     color:azure;
 }
 #msg {
-    padding: 5px;  
+    padding: 5px; 
 }
 footer{
     text-align: center;
@@ -73,4 +71,3 @@ footer a:hover{
     text-decoration: underline;
     font-size:16px;
 }
-
